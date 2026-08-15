@@ -390,7 +390,7 @@
       "reviewCount": 134,
       "stock": 15,
       "images": [
-        "https://i.pinimg.com/736x/8b/52/66/8b52664b2f80851b071c9d9e9946b24f.jpg"
+        "https://i.pinimg.com/736x/ef/de/b5/efdeb5c993d6381a2e9719ee6f90d2f0.jpg"
       ],
       "badge": "Artisan",
       "featured": false,
@@ -444,7 +444,7 @@
       "reviewCount": 97,
       "stock": 12,
       "images": [
-        "https://i.pinimg.com/736x/ef/de/b5/efdeb5c993d6381a2e9719ee6f90d2f0.jpg"
+        "https://i.pinimg.com/736x/8b/52/66/8b52664b2f80851b071c9d9e9946b24f.jpg"
       ],
       "badge": "Handcrafted",
       "featured": true,
@@ -1087,6 +1087,5 @@
       "userId": "UM7zIzkW5Wg",
       "id": "sUDrASBcyOs"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
