@@ -1,0 +1,81 @@
+.contact-page { padding: 40px 0 80px; }
+
+.contact-header { text-align: center; margin-bottom: 56px; }
+.contact-header h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  color: var(--navy);
+  margin-bottom: 12px;
+}
+.contact-header p { color: var(--text-muted); font-size: 1rem; max-width: 480px; margin: 0 auto; }
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+  align-items: start;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-info { display: flex; flex-direction: column; gap: 20px; }
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: white;
+  border-radius: var(--radius-md);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-info-icon {
+  width: 44px; height: 44px;
+  background: rgba(255,153,51,0.1);
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--saffron-dark);
+  flex-shrink: 0;
+}
+
+.contact-info-item h4 { font-size: 0.875rem; font-weight: 700; color: var(--text-primary); margin-bottom: 4px; }
+.contact-info-item p { font-size: 0.82rem; color: var(--text-secondary); }
+
+.contact-form-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  box-shadow: var(--shadow-md);
+}
+
+.contact-form-card h2 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--navy);
+  margin-bottom: 24px;
+}
+
+.cform-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.contact-textarea { resize: vertical; min-height: 120px; }
+
+.contact-success {
+  text-align: center;
+  padding: 40px 20px;
+}
+.contact-success-icon {
+  width: 72px; height: 72px;
+  background: var(--india-green);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 20px;
+  box-shadow: 0 8px 24px rgba(19,136,8,0.25);
+}
+.contact-success h3 { font-size: 1.3rem; margin-bottom: 8px; }
+.contact-success p { color: var(--text-muted); margin-bottom: 24px; }
+
+@media (max-width: 768px) {
+  .contact-layout { grid-template-columns: 1fr; }
+  .contact-form-card { padding: 24px 20px; }
+  .cform-row-2 { grid-template-columns: 1fr; }
+}

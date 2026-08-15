@@ -1,0 +1,1092 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Premium Indian National Flag (3×2 ft)",
+      "description": "High-quality polyester Indian national flag with vibrant saffron, white and India green bands. Ashoka Chakra printed with precision. Double-stitched edges for durability. Suitable for outdoor and indoor display on Independence Day.",
+      "price": 199,
+      "originalPrice": 299,
+      "discount": 33,
+      "category": "Flags & Tricolour",
+      "rating": 4.7,
+      "reviewCount": 284,
+      "stock": 44,
+      "images": [
+        "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=600&q=80"
+      ],
+      "badge": "Bestseller",
+      "featured": true,
+      "createdAt": "2024-07-15T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Mini Table Tricolour Flag (Pack of 6)",
+      "description": "Set of 6 small table-top Indian national flags with sturdy plastic stands. Perfect for office desks, classroom Independence Day displays and small celebrations. Each flag clearly shows saffron, white, India green and Ashoka Chakra.",
+      "price": 149,
+      "originalPrice": 199,
+      "discount": 25,
+      "category": "Flags & Tricolour",
+      "rating": 4.5,
+      "reviewCount": 192,
+      "stock": 60,
+      "images": [
+        "https://i.pinimg.com/736x/7e/94/ae/7e94ae7aa9f3270554ff58816c1638b6.jpg"
+      ],
+      "badge": "Pack Deal",
+      "featured": false,
+      "createdAt": "2024-07-20T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Indian Flag Car Mount (Pair)",
+      "description": "Set of 2 car-mounted Indian national flags with sturdy window-clip mounts. Weather-resistant polyester, bold tricolour printing. Show your patriotism on Independence Day drives. Fits all car windows.",
+      "price": 129,
+      "originalPrice": 179,
+      "discount": 28,
+      "category": "Flags & Tricolour",
+      "rating": 4.4,
+      "reviewCount": 198,
+      "stock": 55,
+      "images": [
+        "https://i.pinimg.com/736x/0f/46/41/0f46417095a2cf649966a38f785ebcde.jpg"
+      ],
+      "badge": "Drive Proud",
+      "featured": false,
+      "createdAt": "2024-07-31T10:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Independence Day Flag Bunting (10m)",
+      "description": "Festive paper bunting garland in saffron, white and India green. 10 metres long with 50 pre-cut triangular flag pennants. Made from biodegradable art paper with a glossy finish. Easy to hang with the included cotton string.",
+      "price": 119,
+      "originalPrice": 169,
+      "discount": 30,
+      "category": "Flags & Tricolour",
+      "rating": 4.4,
+      "reviewCount": 231,
+      "stock": 60,
+      "images": [
+        "https://i.pinimg.com/1200x/54/61/0f/54610fb089dbf2fa001145c5ebcc8890.jpg"
+      ],
+      "badge": "Eco Friendly",
+      "featured": false,
+      "createdAt": "2024-08-08T10:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Tricolour Desk Flag Set",
+      "description": "Elegant tricolour desk flag set featuring a premium polyester Indian national flag on a polished brass stand. Compact 12×8 inch flag with crisp Ashoka Chakra printing. Ideal for desks, reception areas and formal offices.",
+      "price": 249,
+      "originalPrice": 349,
+      "discount": 29,
+      "category": "Flags & Tricolour",
+      "rating": 4.6,
+      "reviewCount": 143,
+      "stock": 38,
+      "images": [
+        "https://i.pinimg.com/1200x/a3/75/a9/a375a9ac0a302995f4b1e4dc29384e56.jpg"
+      ],
+      "badge": "Office Pick",
+      "featured": true,
+      "createdAt": "2024-07-18T10:00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Premium Kaju Katli Box (500g)",
+      "description": "Premium diamond-shaped cashew fudge made with finest quality cashews and pure silver leaf (varak). A royal Independence Day mithai, beautifully packaged in a festive saffron-green gift box. Each piece melts in the mouth.",
+      "price": 499,
+      "originalPrice": 599,
+      "discount": 17,
+      "category": "Indian Sweets",
+      "rating": 4.9,
+      "reviewCount": 341,
+      "stock": 30,
+      "images": [
+        "https://i.pinimg.com/1200x/a7/5a/eb/a75aeb8f7e164a652c9fd34201647c02.jpg"
+      ],
+      "badge": "Premium",
+      "featured": true,
+      "createdAt": "2024-07-10T10:00:00Z"
+    },
+    {
+      "id": "7",
+      "title": "Motichoor Laddu Box (400g)",
+      "description": "Authentic Motichoor Laddus made from fine gram flour droplets soaked in sugar syrup and shaped into perfectly round, melt-in-the-mouth sweets. A beloved Indian festive sweet, packaged in a premium gift box for Independence Day.",
+      "price": 299,
+      "originalPrice": 379,
+      "discount": 21,
+      "category": "Indian Sweets",
+      "rating": 4.7,
+      "reviewCount": 218,
+      "stock": 28,
+      "images": [
+        "https://i.pinimg.com/1200x/fa/bc/5f/fabc5fe60cdf5522097a2f77e050c9f4.jpg"
+      ],
+      "badge": "Traditional",
+      "featured": false,
+      "createdAt": "2024-07-12T10:00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Mysore Pak Gift Box (400g)",
+      "description": "Authentic Mysore Pak crafted with pure desi ghee, besan (gram flour) and sugar. A traditional Karnataka delicacy with a rich, granular texture that melts in the mouth. Packaged in a heritage-style gift box.",
+      "price": 299,
+      "originalPrice": 350,
+      "discount": 15,
+      "category": "Indian Sweets",
+      "rating": 4.6,
+      "reviewCount": 127,
+      "stock": 24,
+      "images": [
+        "https://i.pinimg.com/736x/1b/12/3b/1b123b9149f55b650ad8a61da039ea59.jpg"
+      ],
+      "badge": "Limited",
+      "featured": false,
+      "createdAt": "2024-07-14T10:00:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Gulab Jamun Celebration Box (500g)",
+      "description": "Soft, spongy Gulab Jamun made from khoya and soaked in a fragrant rose-cardamom sugar syrup. A timeless Indian classic, presented in a festive celebration box. Perfect for Independence Day gifting and family celebrations.",
+      "price": 249,
+      "originalPrice": 320,
+      "discount": 22,
+      "category": "Indian Sweets",
+      "rating": 4.8,
+      "reviewCount": 305,
+      "stock": 35,
+      "images": [
+        "https://i.pinimg.com/1200x/28/f5/f9/28f5f96be6b4b9f1d1f0eef7f71ce10f.jpg"
+      ],
+      "badge": "Crowd Favourite",
+      "featured": true,
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "id": "10",
+      "title": "Assorted Indian Sweets Gift Box (1kg)",
+      "description": "Curated selection of traditional Indian sweets: Laddu, Gulab Jamun, Kaju Barfi, Peda and Soan Papdi in a premium festive box. A perfect Independence Day gift hamper for family and colleagues.",
+      "price": 799,
+      "originalPrice": 999,
+      "discount": 20,
+      "category": "Indian Sweets",
+      "rating": 4.7,
+      "reviewCount": 198,
+      "stock": 22,
+      "images": [
+        "https://i.pinimg.com/736x/a7/0f/dc/a70fdcb7d7285770adbbfbbe08983483.jpg"
+      ],
+      "badge": "Gift Special",
+      "featured": true,
+      "createdAt": "2024-07-12T10:00:00Z"
+    },
+    {
+      "id": "11",
+      "title": "Mahatma Gandhi Heritage Poster (12×16 in)",
+      "description": "Archival quality illustrated art print of Mahatma Gandhi, Father of the Nation, based on well-known historical portraits. Printed on premium 200gsm matte paper using archival fade-resistant inks. A tribute to the father of non-violent resistance.",
+      "price": 349,
+      "originalPrice": 499,
+      "discount": 30,
+      "category": "Freedom Heroes",
+      "rating": 4.8,
+      "reviewCount": 215,
+      "stock": 40,
+      "images": [
+        "https://i.pinimg.com/736x/36/af/89/36af8939e1c94f0e67d9b6ea87e69ecb.jpg"
+      ],
+      "badge": "Heritage",
+      "featured": true,
+      "createdAt": "2024-07-08T10:00:00Z"
+    },
+    {
+      "id": "12",
+      "title": "Bhagat Singh Portrait Print (12×16 in)",
+      "description": "Premium illustrated art print of Shaheed Bhagat Singh, the revolutionary freedom fighter who inspired a generation. Printed on archival 200gsm matte paper in a frame-ready format. A tribute to a national hero who gave his life for India's freedom.",
+      "price": 399,
+      "originalPrice": 549,
+      "discount": 27,
+      "category": "Freedom Heroes",
+      "rating": 4.9,
+      "reviewCount": 203,
+      "stock": 35,
+      "images": [
+        "https://i.pinimg.com/1200x/80/fa/17/80fa17acf04a494aa78560d9e027b171.jpg"
+      ],
+      "badge": "Tribute",
+      "featured": true,
+      "createdAt": "2024-08-03T10:00:00Z"
+    },
+    {
+      "id": "13",
+      "title": "Subhas Chandra Bose Heritage Poster (12×16 in)",
+      "description": "Illustrated heritage poster of Netaji Subhas Chandra Bose, founder of the Indian National Army and fearless freedom fighter. Archival-quality print on 200gsm matte paper, fade-resistant inks. Suitable for framing. 12×16 inches.",
+      "price": 399,
+      "originalPrice": 549,
+      "discount": 27,
+      "category": "Freedom Heroes",
+      "rating": 4.8,
+      "reviewCount": 177,
+      "stock": 30,
+      "images": [
+        "https://i.pinimg.com/1200x/c2/32/53/c23253520f2965e36a02b04f88a98cdd.jpg"
+      ],
+      "badge": "Jai Hind",
+      "featured": false,
+      "createdAt": "2024-07-09T10:00:00Z"
+    },
+    {
+      "id": "14",
+      "title": "Rani Lakshmibai Historical Artwork (12×16 in)",
+      "description": "Beautifully illustrated historical artwork of Rani Lakshmibai of Jhansi, the warrior queen and icon of India's 1857 uprising. Archival print on 200gsm matte paper. A powerful symbol of courage and resistance for every Indian home.",
+      "price": 449,
+      "originalPrice": 599,
+      "discount": 25,
+      "category": "Freedom Heroes",
+      "rating": 4.9,
+      "reviewCount": 189,
+      "stock": 28,
+      "images": [
+        "https://i.pinimg.com/736x/f9/9a/8f/f99a8f089f8d21108ecec80cb46d0404.jpg"
+      ],
+      "badge": "Warrior Queen",
+      "featured": false,
+      "createdAt": "2024-07-11T10:00:00Z"
+    },
+    {
+      "id": "15",
+      "title": "Sardar Vallabhbhai Patel Portrait Print (12×16 in)",
+      "description": "Premium illustrated portrait print of Sardar Vallabhbhai Patel, the Iron Man of India who unified 562 princely states into the Indian Union. Archival quality print on 200gsm matte paper. A tribute to India's greatest administrator.",
+      "price": 399,
+      "originalPrice": 549,
+      "discount": 27,
+      "category": "Freedom Heroes",
+      "rating": 4.8,
+      "reviewCount": 162,
+      "stock": 32,
+      "images": [
+        "https://i.pinimg.com/736x/ca/eb/63/caeb63387b54b93373846a7889c18426.jpg"
+      ],
+      "badge": "Iron Man",
+      "featured": true,
+      "createdAt": "2024-07-11T10:00:00Z"
+    },
+    {
+      "id": "16",
+      "title": "Living Through History: Indian Independence By Robert Ashton Hardcover Book 1985",
+      "description": "A vivid first-hand account of India's independence movement as experienced by those who lived through it. Robert Ashton's acclaimed hardcover brings together eyewitness testimonies, archival photographs and historical analysis spanning the final decades of British rule. First published 1985. Hardcover, 320 pages.",
+      "price": 599,
+      "originalPrice": 849,
+      "discount": 29,
+      "category": "Freedom & History",
+      "rating": 4.9,
+      "reviewCount": 341,
+      "stock": 25,
+      "images": [
+        "https://i.pinimg.com/1200x/0c/1a/b5/0c1ab5ac7ea344064ca634f0fe038276.jpg"
+      ],
+      "badge": "Must Read",
+      "featured": true,
+      "createdAt": "2024-07-03T10:00:00Z"
+    },
+    {
+      "id": "17",
+      "title": "India That Is Bharat",
+      "description": "A landmark scholarly work examining the civilisational identity of India — its ancient name Bharat and the cultural, philosophical and historical continuity that shaped the modern nation. An essential read for anyone seeking to understand India beyond its colonial history. Hardcover edition.",
+      "price": 299,
+      "originalPrice": 399,
+      "discount": 25,
+      "category": "Freedom & History",
+      "rating": 4.5,
+      "reviewCount": 94,
+      "stock": 30,
+      "images": [
+        "https://i.pinimg.com/736x/d0/65/10/d0651008586be06f62cfcbb594025597.jpg"
+      ],
+      "badge": "Educational",
+      "featured": false,
+      "createdAt": "2024-08-07T10:00:00Z"
+    },
+    {
+      "id": "18",
+      "title": "The Constitution of India",
+      "description": "The complete text of the Constitution of India as drafted by Dr. B.R. Ambedkar and the Constituent Assembly. This premium edition includes the Preamble, all original articles, schedules and key amendments. An indispensable reference for every Indian citizen, student and legal professional.",
+      "price": 399,
+      "originalPrice": 549,
+      "discount": 27,
+      "category": "Freedom & History",
+      "rating": 4.9,
+      "reviewCount": 512,
+      "stock": 30,
+      "images": [
+        "https://i.pinimg.com/736x/de/98/c2/de98c2d983c91aff112d9da0d8492fc4.jpg"
+      ],
+      "badge": "Classic",
+      "featured": true,
+      "createdAt": "2024-07-02T10:00:00Z"
+    },
+    {
+      "id": "19",
+      "title": "History of Freedom Movement in India",
+      "description": "A comprehensive account of India's long struggle for independence — from the 1857 Sepoy Mutiny to the historic moment of freedom in August 1947. Covers key movements, leaders and turning points including the Non-Cooperation Movement, Civil Disobedience, Quit India and the Partition. Illustrated hardcover.",
+      "price": 349,
+      "originalPrice": 499,
+      "discount": 30,
+      "category": "Freedom & History",
+      "rating": 4.7,
+      "reviewCount": 118,
+      "stock": 22,
+      "images": [
+        "https://i.pinimg.com/736x/18/b2/be/18b2be87c5a501a47f1a48893effeb6a.jpg"
+      ],
+      "badge": "Heritage Read",
+      "featured": false,
+      "createdAt": "2024-07-01T10:00:00Z"
+    },
+    {
+      "id": "20",
+      "title": "Liberty - The Indian Story",
+      "description": "Liberty — The Indian Story chronicles the extraordinary journey of a nation finding its voice. From colonial suppression to the dawn of a free republic, this beautifully produced volume weaves together political history, personal narratives and rare archival imagery to tell the definitive story of Indian independence.",
+      "price": 399,
+      "originalPrice": 549,
+      "discount": 27,
+      "category": "Freedom & History",
+      "rating": 4.6,
+      "reviewCount": 87,
+      "stock": 40,
+      "images": [
+        "https://i.pinimg.com/736x/44/3b/bc/443bbc41eac689c9eb537225a02c061c.jpg"
+      ],
+      "badge": "School Pick",
+      "featured": false,
+      "createdAt": "2024-08-05T10:00:00Z"
+    },
+    {
+      "id": "21",
+      "title": "Madhubani Wall Art (12×16 in)",
+      "description": "Authentic hand-painted Madhubani art on handmade paper by skilled artisans from Mithila, Bihar. Each piece is unique. Depicts traditional Mithila motifs — lotus, fish, peacock — using natural colours. Approx. 12×16 inches. Certificate of authenticity included.",
+      "price": 899,
+      "originalPrice": 1299,
+      "discount": 31,
+      "category": "Indian Art & Crafts",
+      "rating": 4.9,
+      "reviewCount": 203,
+      "stock": 8,
+      "images": [
+        "https://i.pinimg.com/736x/9d/3b/a8/9d3ba813f09513730933da51df89fd01.jpg"
+      ],
+      "badge": "Handmade",
+      "featured": true,
+      "createdAt": "2024-07-06T10:00:00Z"
+    },
+    {
+      "id": "22",
+      "title": "Warli Art Canvas (14×18 in)",
+      "description": "Beautiful Warli tribal art on a stretched canvas frame. Depicting village life, harvest festivals and nature in the traditional monochrome Warli style from Maharashtra. 14×18 inches, ready to hang. Supports tribal artisan communities.",
+      "price": 699,
+      "originalPrice": 999,
+      "discount": 30,
+      "category": "Indian Art & Crafts",
+      "rating": 4.7,
+      "reviewCount": 134,
+      "stock": 15,
+      "images": [
+        "https://i.pinimg.com/736x/8b/52/66/8b52664b2f80851b071c9d9e9946b24f.jpg"
+      ],
+      "badge": "Artisan",
+      "featured": false,
+      "createdAt": "2024-07-07T10:00:00Z"
+    },
+    {
+      "id": "23",
+      "title": "Tanjore Style Heritage Artwork (12×16 in)",
+      "description": "Stunning Tanjore-style artwork featuring intricate gold leaf work, semi-precious stone embellishments and rich colour palette. Depicts a classic Indian deity tableau in the traditional Thanjavur painting style of Tamil Nadu. Framed, ready to hang.",
+      "price": 1299,
+      "originalPrice": 1799,
+      "discount": 28,
+      "category": "Indian Art & Crafts",
+      "rating": 4.8,
+      "reviewCount": 89,
+      "stock": 10,
+      "images": [
+        "https://i.pinimg.com/736x/94/fd/1c/94fd1c821cfb884b769c1c2f43b128ff.jpg"
+      ],
+      "badge": "Collector",
+      "featured": false,
+      "createdAt": "2024-07-11T10:00:00Z"
+    },
+    {
+      "id": "24",
+      "title": "Traditional Indian Handcrafted Decor (Pattachitra)",
+      "description": "Traditional Pattachitra painting-style art print from the artisans of Puri, Odisha. Depicts scenes from Indian mythology and nature in intricate detail. Fine art giclée print on archival paper. 10×14 inches, presented in a decorative handcrafted frame.",
+      "price": 599,
+      "originalPrice": 849,
+      "discount": 29,
+      "category": "Indian Art & Crafts",
+      "rating": 4.7,
+      "reviewCount": 84,
+      "stock": 10,
+      "images": [
+        "https://i.pinimg.com/736x/c8/b9/37/c8b937912d37c13e9c37b5e2cf8cdda6.jpg"
+      ],
+      "badge": "Artisan",
+      "featured": false,
+      "createdAt": "2024-08-04T10:00:00Z"
+    },
+    {
+      "id": "25",
+      "title": "Brass Ashoka Chakra Wall Decor (12 in)",
+      "description": "Handcrafted solid brass Ashoka Chakra wall piece with antique finish and intricate spoke detailing. A symbol of dharma, progress and India's national identity. Diameter 12 inches. Suitable for homes, offices and reception areas.",
+      "price": 1499,
+      "originalPrice": 1999,
+      "discount": 25,
+      "category": "Indian Art & Crafts",
+      "rating": 4.8,
+      "reviewCount": 97,
+      "stock": 12,
+      "images": [
+        "https://i.pinimg.com/736x/ef/de/b5/efdeb5c993d6381a2e9719ee6f90d2f0.jpg"
+      ],
+      "badge": "Handcrafted",
+      "featured": true,
+      "createdAt": "2024-07-05T10:00:00Z"
+    },
+    {
+      "id": "26",
+      "title": "Tricolour Cotton T-Shirt (Unisex)",
+      "description": "Premium 100% cotton unisex t-shirt with bold 'Jai Hind' typography design. Pre-shrunk for consistent fit. Vibrant tricolour print that retains colour through multiple washes. Available in white, navy blue and olive. Sizes XS–3XL.",
+      "price": 399,
+      "originalPrice": 549,
+      "discount": 27,
+      "category": "Patriotic Clothing",
+      "rating": 4.5,
+      "reviewCount": 428,
+      "stock": 50,
+      "images": [
+        "https://i.pinimg.com/736x/70/d3/75/70d375bb2711b0de0c3cc67cc03626e7.jpg"
+      ],
+      "badge": "Popular",
+      "featured": true,
+      "createdAt": "2024-07-17T10:00:00Z"
+    },
+    {
+      "id": "27",
+      "title": "Independence Day Kurta (Men's)",
+      "description": "Elegant cotton kurta with subtle hand-embroidered tricolour motifs at the collar and cuffs. Perfect for Independence Day functions and patriotic celebrations. Machine washable. Available in sizes S, M, L, XL, XXL.",
+      "price": 799,
+      "originalPrice": 1099,
+      "discount": 27,
+      "category": "Patriotic Clothing",
+      "rating": 4.6,
+      "reviewCount": 312,
+      "stock": 35,
+      "images": [
+        "https://i.pinimg.com/736x/90/df/01/90df017a09ea2a2179907228b8fb2183.jpg"
+      ],
+      "badge": "Trending",
+      "featured": true,
+      "createdAt": "2024-07-13T10:00:00Z"
+    },
+    {
+      "id": "28",
+      "title": "Patriotic Kids T-Shirt",
+      "description": "Bright, fun Independence Day t-shirt for kids featuring a bold tricolour India map graphic and 'Mera Bharat Mahaan' text. 100% soft cotton, pre-shrunk. Safe, non-toxic dyes. Available in sizes 2–12 years.",
+      "price": 299,
+      "originalPrice": 399,
+      "discount": 25,
+      "category": "Patriotic Clothing",
+      "rating": 4.7,
+      "reviewCount": 245,
+      "stock": 60,
+      "images": [
+        "https://i.pinimg.com/736x/8e/a3/b6/8ea3b69dc449fd61eff7af01b6deab88.jpg"
+      ],
+      "badge": "Kids",
+      "featured": false,
+      "createdAt": "2024-07-20T10:00:00Z"
+    },
+    {
+      "id": "29",
+      "title": "Tricolour Dupatta",
+      "description": "Lightweight cotton dupatta in pristine white with fine saffron and India green woven stripes and Ashoka Chakra border embroidery. A beautiful patriotic accessory for Independence Day celebrations and cultural events.",
+      "price": 549,
+      "originalPrice": 749,
+      "discount": 27,
+      "category": "Patriotic Clothing",
+      "rating": 4.6,
+      "reviewCount": 134,
+      "stock": 25,
+      "images": [
+        "https://i.pinimg.com/736x/a7/b5/a5/a7b5a5c7efb023184356c12a894c262d.jpg"
+      ],
+      "badge": "Handloom",
+      "featured": false,
+      "createdAt": "2024-07-16T10:00:00Z"
+    },
+    {
+      "id": "30",
+      "title": "Independence Day Ethnic Wear (Women's)",
+      "description": "Handloom cotton salwar kameez in pristine white with saffron and India green woven borders. Comes with a matching dupatta. A dignified and elegant choice for Independence Day functions and flag-hoisting ceremonies.",
+      "price": 1199,
+      "originalPrice": 1699,
+      "discount": 29,
+      "category": "Patriotic Clothing",
+      "rating": 4.8,
+      "reviewCount": 156,
+      "stock": 18,
+      "images": [
+        "https://i.pinimg.com/736x/bf/b5/eb/bfb5eb70883b45da9be4652256b7efa0.jpg"
+      ],
+      "badge": "Ethnic",
+      "featured": false,
+      "createdAt": "2024-07-16T10:00:00Z"
+    },
+    {
+      "id": "31",
+      "title": "Tricolour Wall Bunting (5m)",
+      "description": "Vibrant saffron-white-green fabric bunting garland, 5 metres long with 25 pre-stitched triangular flag pennants. Durable polyester fabric, reusable year after year. Easy to hang with the included cotton string.",
+      "price": 149,
+      "originalPrice": 199,
+      "discount": 25,
+      "category": "Independence Day Decor",
+      "rating": 4.5,
+      "reviewCount": 267,
+      "stock": 55,
+      "images": [
+        "https://i.pinimg.com/736x/9b/b2/62/9bb26285a1f84bd8939e4749099c31ad.jpg"
+      ],
+      "badge": "Decor",
+      "featured": false,
+      "createdAt": "2024-08-08T10:00:00Z"
+    },
+    {
+      "id": "32",
+      "title": "Independence Day Balloon Set (Pack of 50)",
+      "description": "Pack of 50 latex balloons in saffron, white and India green — perfect for Independence Day parties, school events and office celebrations. Includes a hand pump. Each balloon prints a miniature Ashoka Chakra.",
+      "price": 199,
+      "originalPrice": 279,
+      "discount": 29,
+      "category": "Independence Day Decor",
+      "rating": 4.4,
+      "reviewCount": 184,
+      "stock": 70,
+      "images": [
+        "https://i.pinimg.com/1200x/04/29/17/04291719ece9e8974dbb0c806b955eda.jpg"
+      ],
+      "badge": "Party Pack",
+      "featured": false,
+      "createdAt": "2024-07-21T10:00:00Z"
+    },
+    {
+      "id": "33",
+      "title": "Tricolour Door Decoration Set",
+      "description": "Complete door decoration kit in tricolour theme: 2 door hanging buntings, 1 door wreath, 8 star cut-outs in saffron and green, and 2 metres of tricolour ribbon. Transform your entrance for Independence Day in minutes.",
+      "price": 349,
+      "originalPrice": 499,
+      "discount": 30,
+      "category": "Independence Day Decor",
+      "rating": 4.6,
+      "reviewCount": 113,
+      "stock": 40,
+      "images": [
+        "https://i.pinimg.com/736x/9a/52/ca/9a52cae2f13ef5915f0c9e9b056190b6.jpg"
+      ],
+      "badge": "Home Decor",
+      "featured": true,
+      "createdAt": "2024-07-22T10:00:00Z"
+    },
+    {
+      "id": "34",
+      "title": "Independence Day Table Decor Set",
+      "description": "Complete Independence Day table decoration set: tricolour table runner, 6 paper flag centrepieces, mini Ashoka Chakra ornament, confetti and a tricolour flower vase wrap. Perfect for office and home celebrations.",
+      "price": 549,
+      "originalPrice": 799,
+      "discount": 31,
+      "category": "Independence Day Decor",
+      "rating": 4.7,
+      "reviewCount": 198,
+      "stock": 22,
+      "images": [
+        "https://i.pinimg.com/1200x/53/a3/4f/53a34fe4133d82dd5b967117539f3d85.jpg"
+      ],
+      "badge": "Combo",
+      "featured": true,
+      "createdAt": "2024-07-19T10:00:00Z"
+    },
+    {
+      "id": "35",
+      "title": "Tricolour Celebration Banner (5ft)",
+      "description": "Bold 5-foot vinyl banner in saffron, white and India green reading 'Happy Independence Day' in English and Hindi. Includes grommets for easy hanging. Weatherproof and reusable. Perfect for home gates, offices and school entrances.",
+      "price": 249,
+      "originalPrice": 349,
+      "discount": 29,
+      "category": "Independence Day Decor",
+      "rating": 4.5,
+      "reviewCount": 156,
+      "stock": 35,
+      "images": [
+        "https://i.pinimg.com/736x/a0/a3/af/a0a3afac639d6394f62dc1ea0b7b5f92.jpg"
+      ],
+      "badge": "Bold Display",
+      "featured": false,
+      "createdAt": "2024-07-25T10:00:00Z"
+    },
+    {
+      "id": "36",
+      "title": "Independence Day Gift Hamper (Premium)",
+      "description": "Curated premium Independence Day gift hamper: Kaju Katli (200g), handcrafted Ashoka Chakra bookmark, tricolour ribbon, Independence Day greeting card, premium aromatic incense set and a small heritage art print. Beautifully gift-wrapped in tricolour packaging.",
+      "price": 999,
+      "originalPrice": 1399,
+      "discount": 29,
+      "category": "Patriotic Gifts & Accessories",
+      "rating": 4.9,
+      "reviewCount": 156,
+      "stock": 15,
+      "images": [
+        "https://i.pinimg.com/1200x/8b/d7/f7/8bd7f75bf54559fbcdb1ad6848fb9beb.jpg"
+      ],
+      "badge": "Gift Ready",
+      "featured": true,
+      "createdAt": "2024-08-10T10:00:00Z"
+    },
+    {
+      "id": "37",
+      "title": "Tricolour Badge Set (Pack of 12)",
+      "description": "Set of 12 premium quality enamel tricolour badges featuring the Indian national flag, Ashoka Chakra and 'Jai Hind' text. Pin-back closure, gold-tone metal base. Perfect for uniforms, bags and lapels on Independence Day.",
+      "price": 249,
+      "originalPrice": 349,
+      "discount": 29,
+      "category": "Patriotic Gifts & Accessories",
+      "rating": 4.6,
+      "reviewCount": 189,
+      "stock": 50,
+      "images": [
+        "https://i.pinimg.com/1200x/90/73/81/9073811c23df768dbaaf769fafe756ec.jpg"
+      ],
+      "badge": "Wearable Pride",
+      "featured": false,
+      "createdAt": "2024-08-09T10:00:00Z"
+    },
+    {
+      "id": "38",
+      "title": "Tricolour Keychains Set",
+      "description": "Elegant gold-tone Ashoka Chakra lapel pin crafted from zinc alloy with enamel fill and a polished finish. 24 precisely detailed spokes. Butterfly clutch backing. A refined way to display national pride at formal events and ceremonies.",
+      "price": 149,
+      "originalPrice": 199,
+      "discount": 25,
+      "category": "Patriotic Gifts & Accessories",
+      "rating": 4.7,
+      "reviewCount": 234,
+      "stock": 80,
+      "images": [
+        "https://i.pinimg.com/1200x/f9/65/ef/f965efbfc90bbda7cf174a26d1b2ed44.jpg"
+      ],
+      "badge": "Bestseller",
+      "featured": false,
+      "createdAt": "2024-08-08T10:00:00Z"
+    },
+    {
+      "id": "39",
+      "title": "Ashoka Lion Capital",
+      "description": "A premium quality replica of the Ashoka Lion Capital — the national emblem of India. Crafted with fine detailing, this decorative piece features the four lions atop the Dharma Chakra as originally found at Sarnath. A powerful symbol of India's sovereignty, strength and heritage. Ideal for desks, shelves and gifting.",
+      "price": 99,
+      "originalPrice": 149,
+      "discount": 34,
+      "category": "Patriotic Gifts & Accessories",
+      "rating": 4.5,
+      "reviewCount": 312,
+      "stock": 100,
+      "images": [
+        "https://i.pinimg.com/736x/d9/84/97/d9849737a0a21c1445da8cca6b3df334.jpg"
+      ],
+      "badge": "Pocket Sized",
+      "featured": false,
+      "createdAt": "2024-08-07T10:00:00Z"
+    },
+    {
+      "id": "40",
+      "title": "Independence Day Greeting Card Set (Pack of 10)",
+      "description": "Set of 10 premium quality Independence Day greeting cards featuring patriotic artwork — Indian flag, Ashoka Chakra, heritage motifs and freedom-movement-inspired designs. Envelopes included. Perfect for sharing with family, friends and colleagues.",
+      "price": 199,
+      "originalPrice": 279,
+      "discount": 29,
+      "category": "Patriotic Gifts & Accessories",
+      "rating": 4.5,
+      "reviewCount": 89,
+      "stock": 50,
+      "images": [
+        "https://i.pinimg.com/1200x/1a/ac/b1/1aacb127f66eeb7300fb44330673d3bf.jpg"
+      ],
+      "badge": "Card Set",
+      "featured": false,
+      "createdAt": "2024-08-06T10:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "name": "Kirubha Karan.R",
+      "email": "kirubhak047@gmail.com",
+      "password": "hello@1",
+      "createdAt": "2026-08-15T12:13:09.191Z",
+      "id": "p3qn7kEJ8wQ"
+    },
+    {
+      "name": "Kirubha Karan.R",
+      "email": "kkriz448@gmail.com",
+      "password": "hello@1",
+      "createdAt": "2026-08-15T16:34:50.443Z",
+      "id": "UM7zIzkW5Wg"
+    }
+  ],
+  "orders": [
+    {
+      "orderNumber": "TM0617185928",
+      "userId": "p3qn7kEJ8wQ",
+      "items": [
+        {
+          "id": "1",
+          "title": "Premium Indian National Flag (3×2 ft)",
+          "category": "Flags & Tricolour",
+          "image": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=600&q=80",
+          "price": 199,
+          "originalPrice": 299,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 597,
+      "couponCode": "AZADI15",
+      "discount": 90,
+      "taxableAmount": 507,
+      "cgst": 45.63,
+      "sgst": 45.63,
+      "deliveryFee": 0,
+      "total": 598.26,
+      "shippingAddress": {
+        "fullName": "Kirubha Karan.R",
+        "phone": "9999999999",
+        "house": "jdkjkjdsflkjdls",
+        "street": "kjhdjkhsjdhjkfshk",
+        "area": "jkjhdzjhfkdjkfhkj",
+        "state": "Tamil Nadu",
+        "city": "Chennai",
+        "pincode": "623407",
+        "latitude": 12.978056885468252,
+        "longitude": 80.21862296213912
+      },
+      "status": "Order Placed",
+      "createdAt": "2026-08-15T12:31:01.718Z",
+      "id": "MpNpKNN3_fE"
+    },
+    {
+      "items": [],
+      "orderNumber": "TM999999",
+      "userId": "p3qn7kEJ8wQ",
+      "subtotal": 100,
+      "createdAt": "2026-08-15T18:02:18.4157088+05:30",
+      "status": "Order Placed",
+      "id": "lbQkVZB5TQ0"
+    },
+    {
+      "orderNumber": "TM5210003172",
+      "userId": "p3qn7kEJ8wQ",
+      "items": [
+        {
+          "id": "10",
+          "title": "Assorted Indian Sweets Gift Box (1kg)",
+          "category": "Indian Sweets",
+          "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80",
+          "price": 799,
+          "originalPrice": 999,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 799,
+      "couponCode": null,
+      "discount": 0,
+      "taxableAmount": 799,
+      "cgst": 71.91,
+      "sgst": 71.91,
+      "deliveryFee": 0,
+      "total": 942.82,
+      "shippingAddress": {
+        "fullName": "Kirubha Karan.R",
+        "phone": "9999999999",
+        "house": "jdkjkjdsflkjdls",
+        "street": "kjhdjkhsjdhjkfshk",
+        "area": "jkjhdzjhfkdjkfhkj",
+        "state": "Tamil Nadu",
+        "city": "Chennai",
+        "pincode": "623407",
+        "latitude": 12.97809046329792,
+        "longitude": 80.21870653686136,
+        "userId": "p3qn7kEJ8wQ",
+        "id": "N7BVCk-wRoA"
+      },
+      "status": "Order Placed",
+      "createdAt": "2026-08-15T12:38:41Z",
+      "id": "kMga4PyBjOU"
+    },
+    {
+      "orderNumber": "TM9727307036",
+      "userId": "p3qn7kEJ8wQ",
+      "items": [
+        {
+          "id": "1",
+          "title": "Premium Indian National Flag (3×2 ft)",
+          "category": "Flags & Tricolour",
+          "image": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=600&q=80",
+          "price": 199,
+          "originalPrice": 299,
+          "quantity": 1
+        },
+        {
+          "id": "12",
+          "title": "Bhagat Singh Portrait Print (12×16 in)",
+          "category": "Freedom Heroes",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Bhagat_Singh_1929.jpg/440px-Bhagat_Singh_1929.jpg",
+          "price": 399,
+          "originalPrice": 549,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 598,
+      "couponCode": "FREEDOM25",
+      "discount": 200,
+      "taxableAmount": 398,
+      "cgst": 35.82,
+      "sgst": 35.82,
+      "deliveryFee": 0,
+      "total": 469.64,
+      "shippingAddress": {
+        "fullName": "Kirubha Karan.R",
+        "phone": "9999999999",
+        "house": "jdkjkjdsflkjdls",
+        "street": "kjhdjkhsjdhjkfshk",
+        "area": "jkjhdzjhfkdjkfhkj",
+        "state": "Tamil Nadu",
+        "district": "",
+        "city": "Chennai",
+        "pincode": "623407",
+        "latitude": 12.97809046329792,
+        "longitude": 80.21870653686136,
+        "userId": "p3qn7kEJ8wQ",
+        "id": "N7BVCk-wRoA"
+      },
+      "status": "Order Placed",
+      "createdAt": "2026-08-15T13:19:32.73Z",
+      "id": "-sgzKDpdXhs"
+    },
+    {
+      "orderNumber": "TM8125263377",
+      "userId": "UM7zIzkW5Wg",
+      "items": [
+        {
+          "id": "18",
+          "title": "The Constitution of India",
+          "category": "Freedom & History",
+          "image": "https://i.pinimg.com/736x/de/98/c2/de98c2d983c91aff112d9da0d8492fc4.jpg",
+          "price": 399,
+          "originalPrice": 549,
+          "quantity": 1
+        },
+        {
+          "id": "13",
+          "title": "Subhas Chandra Bose Heritage Poster (12×16 in)",
+          "category": "Freedom Heroes",
+          "image": "https://i.pinimg.com/1200x/c2/32/53/c23253520f2965e36a02b04f88a98cdd.jpg",
+          "price": 399,
+          "originalPrice": 549,
+          "quantity": 1
+        },
+        {
+          "id": "29",
+          "title": "Tricolour Dupatta",
+          "category": "Patriotic Clothing",
+          "image": "https://i.pinimg.com/736x/a7/b5/a5/a7b5a5c7efb023184356c12a894c262d.jpg",
+          "price": 549,
+          "originalPrice": 749,
+          "quantity": 1
+        },
+        {
+          "id": "35",
+          "title": "Tricolour Celebration Banner (5ft)",
+          "category": "Independence Day Decor",
+          "image": "https://i.pinimg.com/736x/a0/a3/af/a0a3afac639d6394f62dc1ea0b7b5f92.jpg",
+          "price": 249,
+          "originalPrice": 349,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 1596,
+      "couponCode": "FREEDOM150",
+      "discount": 150,
+      "taxableAmount": 1446,
+      "cgst": 130.14,
+      "sgst": 130.14,
+      "deliveryFee": 0,
+      "total": 1706.2799999999997,
+      "shippingAddress": {
+        "fullName": "Kirubha Karan.R",
+        "phone": "9999999999",
+        "pincode": "620001",
+        "state": "Tamil Nadu",
+        "district": "Tiruchirappalli",
+        "city": "Bheemanagar",
+        "house": "jdkjkjdsflkjdls",
+        "street": "kjhdjkhsjdhjkfshk",
+        "area": "jkjhdzjhfkdjkfhkj",
+        "userId": "UM7zIzkW5Wg",
+        "id": "sUDrASBcyOs"
+      },
+      "status": "Order Placed",
+      "createdAt": "2026-08-15T16:36:52.527Z",
+      "id": "u9wVQGCmufs"
+    }
+  ],
+  "wishlists": [
+    {
+      "userId": "p3qn7kEJ8wQ",
+      "items": [],
+      "id": "_EFslfFSvec"
+    },
+    {
+      "userId": "UM7zIzkW5Wg",
+      "items": [
+        {
+          "id": "10",
+          "title": "Assorted Indian Sweets Gift Box (1kg)",
+          "description": "Curated selection of traditional Indian sweets: Laddu, Gulab Jamun, Kaju Barfi, Peda and Soan Papdi in a premium festive box. A perfect Independence Day gift hamper for family and colleagues.",
+          "price": 799,
+          "originalPrice": 999,
+          "discount": 20,
+          "category": "Indian Sweets",
+          "rating": 4.7,
+          "reviewCount": 198,
+          "stock": 22,
+          "images": [
+            "https://i.pinimg.com/736x/a7/0f/dc/a70fdcb7d7285770adbbfbbe08983483.jpg"
+          ],
+          "badge": "Gift Special",
+          "featured": true,
+          "createdAt": "2024-07-12T10:00:00Z"
+        },
+        {
+          "id": "14",
+          "title": "Rani Lakshmibai Historical Artwork (12×16 in)",
+          "description": "Beautifully illustrated historical artwork of Rani Lakshmibai of Jhansi, the warrior queen and icon of India's 1857 uprising. Archival print on 200gsm matte paper. A powerful symbol of courage and resistance for every Indian home.",
+          "price": 449,
+          "originalPrice": 599,
+          "discount": 25,
+          "category": "Freedom Heroes",
+          "rating": 4.9,
+          "reviewCount": 189,
+          "stock": 28,
+          "images": [
+            "https://i.pinimg.com/736x/f9/9a/8f/f99a8f089f8d21108ecec80cb46d0404.jpg"
+          ],
+          "badge": "Warrior Queen",
+          "featured": false,
+          "createdAt": "2024-07-11T10:00:00Z"
+        },
+        {
+          "id": "18",
+          "title": "The Constitution of India",
+          "description": "The complete text of the Constitution of India as drafted by Dr. B.R. Ambedkar and the Constituent Assembly. This premium edition includes the Preamble, all original articles, schedules and key amendments. An indispensable reference for every Indian citizen, student and legal professional.",
+          "price": 399,
+          "originalPrice": 549,
+          "discount": 27,
+          "category": "Freedom & History",
+          "rating": 4.9,
+          "reviewCount": 512,
+          "stock": 30,
+          "images": [
+            "https://i.pinimg.com/736x/de/98/c2/de98c2d983c91aff112d9da0d8492fc4.jpg"
+          ],
+          "badge": "Classic",
+          "featured": true,
+          "createdAt": "2024-07-02T10:00:00Z"
+        },
+        {
+          "id": "38",
+          "title": "Tricolour Keychains Set",
+          "description": "Elegant gold-tone Ashoka Chakra lapel pin crafted from zinc alloy with enamel fill and a polished finish. 24 precisely detailed spokes. Butterfly clutch backing. A refined way to display national pride at formal events and ceremonies.",
+          "price": 149,
+          "originalPrice": 199,
+          "discount": 25,
+          "category": "Patriotic Gifts & Accessories",
+          "rating": 4.7,
+          "reviewCount": 234,
+          "stock": 80,
+          "images": [
+            "https://i.pinimg.com/1200x/f9/65/ef/f965efbfc90bbda7cf174a26d1b2ed44.jpg"
+          ],
+          "badge": "Bestseller",
+          "featured": false,
+          "createdAt": "2024-08-08T10:00:00Z"
+        },
+        {
+          "id": "21",
+          "title": "Madhubani Wall Art (12×16 in)",
+          "description": "Authentic hand-painted Madhubani art on handmade paper by skilled artisans from Mithila, Bihar. Each piece is unique. Depicts traditional Mithila motifs — lotus, fish, peacock — using natural colours. Approx. 12×16 inches. Certificate of authenticity included.",
+          "price": 899,
+          "originalPrice": 1299,
+          "discount": 31,
+          "category": "Indian Art & Crafts",
+          "rating": 4.9,
+          "reviewCount": 203,
+          "stock": 8,
+          "images": [
+            "https://i.pinimg.com/736x/9d/3b/a8/9d3ba813f09513730933da51df89fd01.jpg"
+          ],
+          "badge": "Handmade",
+          "featured": true,
+          "createdAt": "2024-07-06T10:00:00Z"
+        }
+      ],
+      "id": "T6Ta0LEX8bc"
+    }
+  ],
+  "addresses": [
+    {
+      "fullName": "Kirubha Karan.R",
+      "phone": "9999999999",
+      "house": "jdkjkjdsflkjdls",
+      "street": "kjhdjkhsjdhjkfshk",
+      "area": "jkjhdzjhfkdjkfhkj",
+      "state": "Tamil Nadu",
+      "district": "",
+      "city": "Chennai",
+      "pincode": "623407",
+      "latitude": 12.97809046329792,
+      "longitude": 80.21870653686136,
+      "userId": "p3qn7kEJ8wQ",
+      "id": "N7BVCk-wRoA"
+    },
+    {
+      "fullName": "Kirubha Karan.R",
+      "phone": "9999999999",
+      "pincode": "623407",
+      "state": "Tamil Nadu",
+      "district": "Ramanathapuram",
+      "city": "Anjukottai",
+      "house": "jdkjkjdsflkjdls",
+      "street": "kjhdjkhsjdhjkfshk",
+      "area": "jkjhdzjhfkdjkfhkj",
+      "userId": "p3qn7kEJ8wQ",
+      "id": "4cNHaqKC_m0"
+    },
+    {
+      "fullName": "Kirubha Karan.R",
+      "phone": "9999999999",
+      "pincode": "620001",
+      "state": "Tamil Nadu",
+      "district": "Tiruchirappalli",
+      "city": "Bheemanagar",
+      "house": "jdkjkjdsflkjdls",
+      "street": "kjhdjkhsjdhjkfshk",
+      "area": "jkjhdzjhfkdjkfhkj",
+      "userId": "UM7zIzkW5Wg",
+      "id": "sUDrASBcyOs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

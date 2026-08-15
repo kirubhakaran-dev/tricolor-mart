@@ -1,0 +1,49 @@
+/* Waving flag container */
+.waving-flag-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.waving-flag-svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* CSS wave animation applied to the flag bands using transform */
+@keyframes flagWave {
+  0%   { transform: skewX(0deg) scaleX(1); }
+  25%  { transform: skewX(1.5deg) scaleX(1.01); }
+  50%  { transform: skewX(-1deg) scaleX(0.99); }
+  75%  { transform: skewX(2deg) scaleX(1.015); }
+  100% { transform: skewX(0deg) scaleX(1); }
+}
+
+@keyframes chakraSpin {
+  from { transform: translate(250px, 166.5px) rotate(0deg); }
+  to   { transform: translate(250px, 166.5px) rotate(360deg); }
+}
+
+.waving-flag-svg .flag-fabric {
+  transform-origin: 0% 50%;
+  animation: flagWave 3s ease-in-out infinite;
+}
+
+.waving-flag-svg .chakra-group {
+  animation: chakraSpin 8s linear infinite;
+}
+
+/* Static wave flag */
+.flag-wave {
+  animation: flagWave 3s ease-in-out infinite;
+  transform-origin: left center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .waving-flag-svg .flag-fabric,
+  .waving-flag-svg .chakra-group,
+  .flag-wave {
+    animation: none;
+  }
+}
