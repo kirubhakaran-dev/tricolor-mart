@@ -1,23 +1,20 @@
-import React, { createContext, useContext, useState, useEffect } from 'react'
+import { createContext, useContext, useState } from 'react'
 import { userService } from '../services/userService'
 
 const AuthContext = createContext()
 
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(null)
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    const stored = localStorage.getItem('tricolor_user')
-    if (stored) {
-      try {
-        setUser(JSON.parse(stored))
-      } catch {
-        localStorage.removeItem('tricolor_user')
-      }
+  const [user, setUser] = useState(() => {
+    try {
+      const stored = localStorage.getItem('tricolor_user')
+      return stored ? JSON.parse(stored) : null
+    } catch {
+      localStorage.removeItem('tricolor_user')
+      return null
     }
-    setLoading(false)
-  }, [])
+  })
+  // loading is always false — user is rehydrated synchronously from localStorage
+  const loading = false
 
   const login = async (email, password) => {
     const users = await userService.getUserByEmail(email)
@@ -28,7 +25,8 @@ export function AuthProvider({ children }) {
     if (found.password !== password) {
       throw new Error('Incorrect password. Please try again.')
     }
-    const { password: _, ...safeUser } = found
+    // eslint-disable-next-line no-unused-vars
+    const { password: _pw1, ...safeUser } = found
     setUser(safeUser)
     localStorage.setItem('tricolor_user', JSON.stringify(safeUser))
     return safeUser
@@ -40,7 +38,8 @@ export function AuthProvider({ children }) {
       throw new Error('An account with this email already exists.')
     }
     const newUser = await userService.createUser({ name, email, password, createdAt: new Date().toISOString() })
-    const { password: _, ...safeUser } = newUser
+    // eslint-disable-next-line no-unused-vars
+    const { password: _pw2, ...safeUser } = newUser
     setUser(safeUser)
     localStorage.setItem('tricolor_user', JSON.stringify(safeUser))
     return safeUser

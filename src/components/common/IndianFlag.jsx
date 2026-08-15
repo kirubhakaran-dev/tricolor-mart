@@ -1,4 +1,3 @@
-import React from 'react'
 import './IndianFlag.css'
 
 // SVG Indian Flag - no emoji, proper tricolour with Ashoka Chakra

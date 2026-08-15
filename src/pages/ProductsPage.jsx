@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { productService } from '../services/productService'
 import ProductCard from '../components/product/ProductCard'
@@ -42,18 +42,7 @@ export default function ProductsPage() {
   const [inStockOnly, setInStockOnly] = useState(false)
   const [sortBy, setSortBy] = useState('recommended')
 
-  useEffect(() => {
-    loadProducts()
-  }, [])
-
-  useEffect(() => {
-    const cat = searchParams.get('category') || ''
-    const q = searchParams.get('search') || ''
-    setSelectedCategory(cat)
-    setSearch(q)
-  }, [searchParams])
-
-  const loadProducts = async () => {
+  const loadProducts = useCallback(async () => {
     setLoading(true)
     setError(null)
     try {
@@ -64,7 +53,18 @@ export default function ProductsPage() {
     } finally {
       setLoading(false)
     }
-  }
+  }, [])
+
+  useEffect(() => {
+    loadProducts()
+  }, [loadProducts])
+
+  useEffect(() => {
+    const cat = searchParams.get('category') || ''
+    const q = searchParams.get('search') || ''
+    setSelectedCategory(() => cat)
+    setSearch(() => q)
+  }, [searchParams])
 
   const filteredProducts = useCallback(() => {
     let result = [...allProducts]

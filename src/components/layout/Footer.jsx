@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { FlagIcon } from '../common/IndianFlag'
 import { useAuth } from '../../context/AuthContext'

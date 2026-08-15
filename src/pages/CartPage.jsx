@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useCart } from '../context/CartContext'
 import { useAuth } from '../context/AuthContext'
@@ -11,8 +11,8 @@ export default function CartPage() {
   const {
     items, removeFromCart, updateQuantity, subtotal, discount, taxableAmount,
     cgst, sgst, deliveryFee, total, itemCount,
-    couponCode, setCouponCode, couponError, appliedCoupon, applyCoupon, removeCoupon,
-    DELIVERY_FEE, FREE_DELIVERY_THRESHOLD
+    couponError, appliedCoupon, applyCoupon, removeCoupon,
+    FREE_DELIVERY_THRESHOLD
   } = useCart()
   const { user } = useAuth()
   const { addToast } = useToast()
@@ -28,9 +28,12 @@ export default function CartPage() {
         try {
           const p = await productService.getProductById(item.id)
           setProductStocks(prev => ({ ...prev, [item.id]: p.stock }))
-        } catch {}
+        } catch (err) {
+          console.error('Stock fetch error', err)
+        }
       })
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const handleApplyCoupon = () => {

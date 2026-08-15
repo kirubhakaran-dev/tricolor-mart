@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { productService } from '../services/productService'
 import Hero from '../components/layout/Hero'
@@ -58,13 +58,8 @@ export default function HomePage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const { user } = useAuth()
-  const navigate = useNavigate()
 
-  useEffect(() => {
-    loadProducts()
-  }, [])
-
-  const loadProducts = async () => {
+  const loadProducts = useCallback(async () => {
     setLoading(true)
     setError(null)
     try {
@@ -75,7 +70,11 @@ export default function HomePage() {
     } finally {
       setLoading(false)
     }
-  }
+  }, [])
+
+  useEffect(() => {
+    loadProducts()
+  }, [loadProducts])
 
   const featuredProducts = products.filter(p => p.featured).slice(0, 8)
   const limitedStockProducts = products.filter(p => p.stock > 0 && p.stock <= 3).slice(0, 6)

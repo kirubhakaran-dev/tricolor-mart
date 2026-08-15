@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 import { useAuth } from '../../context/AuthContext'
 import { useCart } from '../../context/CartContext'
@@ -32,11 +32,17 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  useEffect(() => {
+  // Close all menus when the route changes
+  const locationKey = location.pathname
+  const closeAllMenus = useCallback(() => {
     setMobileOpen(false)
     setProfileOpen(false)
     setSearchOpen(false)
-  }, [location.pathname])
+  }, [])
+
+  useEffect(() => {
+    closeAllMenus()
+  }, [locationKey, closeAllMenus])
 
   // Close dropdowns on outside click
   useEffect(() => {

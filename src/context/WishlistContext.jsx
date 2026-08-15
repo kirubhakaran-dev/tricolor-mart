@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react'
+import { createContext, useContext, useState, useEffect, useCallback } from 'react'
 import { useAuth } from './AuthContext'
 import { wishlistService } from '../services/wishlistService'
 
@@ -10,16 +10,7 @@ export function WishlistProvider({ children }) {
   const [wishlistId, setWishlistId] = useState(null)
   const [loading, setLoading] = useState(false)
 
-  useEffect(() => {
-    if (user) {
-      fetchWishlist()
-    } else {
-      setWishlistItems([])
-      setWishlistId(null)
-    }
-  }, [user])
-
-  const fetchWishlist = async () => {
+  const fetchWishlist = useCallback(async () => {
     if (!user) return
     setLoading(true)
     try {
@@ -37,7 +28,16 @@ export function WishlistProvider({ children }) {
     } finally {
       setLoading(false)
     }
-  }
+  }, [user])
+
+  useEffect(() => {
+    if (user) {
+      fetchWishlist()
+    } else {
+      setWishlistItems([])
+      setWishlistId(null)
+    }
+  }, [user, fetchWishlist])
 
   const saveWishlist = async (newItems) => {
     if (!user || !wishlistId) return

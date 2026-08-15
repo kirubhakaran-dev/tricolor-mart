@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useState, useEffect, useCallback } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { useToast } from '../context/ToastContext'
 import { addressService } from '../services/addressService'
@@ -34,13 +34,7 @@ export default function AddressPage() {
   })
   const [errors, setErrors] = useState({})
 
-  useEffect(() => {
-    if (authLoading) return
-    if (!user) { navigate('/login'); return }
-    fetchAddress()
-  }, [user, authLoading])
-
-  const fetchAddress = async () => {
+  const fetchAddress = useCallback(async () => {
     setLoading(true)
     try {
       const addresses = await addressService.getAddressByUser(user.id)
@@ -62,7 +56,13 @@ export default function AddressPage() {
     } finally {
       setLoading(false)
     }
-  }
+  }, [user])
+
+  useEffect(() => {
+    if (authLoading) return
+    if (!user) { navigate('/login'); return }
+    fetchAddress()
+  }, [user, authLoading, navigate, fetchAddress])
 
   const handleChange = (e) => {
     setForm(prev => ({ ...prev, [e.target.name]: e.target.value }))

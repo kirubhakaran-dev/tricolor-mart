@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import { productService } from '../services/productService'
 import { useCart } from '../context/CartContext'
@@ -26,11 +26,7 @@ export default function ProductDetailPage() {
   const [imgLoaded, setImgLoaded] = useState(false)
   const [addingToCart, setAddingToCart] = useState(false)
 
-  useEffect(() => {
-    loadProduct()
-  }, [id])
-
-  const loadProduct = async () => {
+  const loadProduct = useCallback(async () => {
     setLoading(true)
     setQty(1)
     setActiveImageIndex(0)
@@ -45,7 +41,11 @@ export default function ProductDetailPage() {
     } finally {
       setLoading(false)
     }
-  }
+  }, [id])
+
+  useEffect(() => {
+    loadProduct()
+  }, [loadProduct])
 
   if (loading) {
     return (

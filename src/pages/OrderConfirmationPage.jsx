@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { orderService } from '../services/orderService'
 import { formatPrice, formatDate } from '../utils/helpers'
@@ -28,11 +28,7 @@ export default function OrderConfirmationPage() {
   const [order, setOrder] = useState(null)
   const [loading, setLoading] = useState(true)
 
-  useEffect(() => {
-    loadOrder()
-  }, [orderId])
-
-  const loadOrder = async () => {
+  const loadOrder = useCallback(async () => {
     try {
       const data = await orderService.getOrderById(orderId)
       setOrder(data)
@@ -41,7 +37,11 @@ export default function OrderConfirmationPage() {
     } finally {
       setLoading(false)
     }
-  }
+  }, [orderId])
+
+  useEffect(() => {
+    loadOrder()
+  }, [loadOrder])
 
   if (loading) {
     return (

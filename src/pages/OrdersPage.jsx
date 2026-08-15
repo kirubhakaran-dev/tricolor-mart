@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { orderService } from '../services/orderService'
@@ -53,18 +53,11 @@ export default function OrdersPage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
-  useEffect(() => {
-    if (authLoading) return          // wait for auth to rehydrate from localStorage
-    if (!user) { navigate('/login'); return }
-    fetchOrders()
-  }, [user, authLoading])
-
-  const fetchOrders = async () => {
+  const fetchOrders = useCallback(async () => {
     setLoading(true)
     setError(null)
     try {
       const data = await orderService.getOrdersByUser(user.id)
-      // Sort newest first
       const sorted = [...data].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
       setOrders(sorted)
     } catch {
@@ -72,7 +65,13 @@ export default function OrdersPage() {
     } finally {
       setLoading(false)
     }
-  }
+  }, [user])
+
+  useEffect(() => {
+    if (authLoading) return
+    if (!user) { navigate('/login'); return }
+    fetchOrders()
+  }, [user, authLoading, navigate, fetchOrders])
 
   if (authLoading) return null   // still rehydrating — don't redirect yet
   if (!user) return null

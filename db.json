@@ -172,7 +172,7 @@
       "category": "Indian Sweets",
       "rating": 4.7,
       "reviewCount": 198,
-      "stock": 22,
+      "stock": 21,
       "images": [
         "https://i.pinimg.com/736x/a7/0f/dc/a70fdcb7d7285770adbbfbbe08983483.jpg"
       ],
@@ -208,7 +208,7 @@
       "category": "Freedom Heroes",
       "rating": 4.9,
       "reviewCount": 203,
-      "stock": 35,
+      "stock": 34,
       "images": [
         "https://i.pinimg.com/1200x/80/fa/17/80fa17acf04a494aa78560d9e027b171.jpg"
       ],
@@ -406,7 +406,7 @@
       "category": "Indian Art & Crafts",
       "rating": 4.8,
       "reviewCount": 89,
-      "stock": 10,
+      "stock": 9,
       "images": [
         "https://i.pinimg.com/736x/94/fd/1c/94fd1c821cfb884b769c1c2f43b128ff.jpg"
       ],
@@ -940,6 +940,65 @@
       "status": "Order Placed",
       "createdAt": "2026-08-15T16:36:52.527Z",
       "id": "u9wVQGCmufs"
+    },
+    {
+      "orderNumber": "TM1045342380",
+      "userId": "UM7zIzkW5Wg",
+      "items": [
+        {
+          "id": "10",
+          "title": "Assorted Indian Sweets Gift Box (1kg)",
+          "category": "Indian Sweets",
+          "image": "https://i.pinimg.com/736x/a7/0f/dc/a70fdcb7d7285770adbbfbbe08983483.jpg",
+          "price": 799,
+          "originalPrice": 999,
+          "quantity": 1
+        },
+        {
+          "id": "12",
+          "title": "Bhagat Singh Portrait Print (12×16 in)",
+          "category": "Freedom Heroes",
+          "image": "https://i.pinimg.com/1200x/80/fa/17/80fa17acf04a494aa78560d9e027b171.jpg",
+          "price": 399,
+          "originalPrice": 549,
+          "quantity": 1
+        },
+        {
+          "id": "23",
+          "title": "Tanjore Style Heritage Artwork (12×16 in)",
+          "category": "Indian Art & Crafts",
+          "image": "https://i.pinimg.com/736x/94/fd/1c/94fd1c821cfb884b769c1c2f43b128ff.jpg",
+          "price": 1299,
+          "originalPrice": 1799,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2497,
+      "couponCode": "FREEDOM150",
+      "discount": 150,
+      "taxableAmount": 2347,
+      "cgst": 211.23,
+      "sgst": 211.23,
+      "deliveryFee": 0,
+      "total": 2769.46,
+      "shippingAddress": {
+        "fullName": "Kirubha Karan.R",
+        "phone": "9999999999",
+        "pincode": "600021",
+        "state": "Tamil Nadu",
+        "district": "Chennai",
+        "city": "Washermanpet",
+        "house": "jdkjkjdsflkjdls",
+        "street": "kjhdjkhsjdhjkfshk",
+        "area": "jkjhdzjhfkdjkfhkj",
+        "latitude": 12.978073598516959,
+        "longitude": 80.21872925978677,
+        "userId": "UM7zIzkW5Wg",
+        "id": "_1jaQTwvjW4"
+      },
+      "status": "Order Placed",
+      "createdAt": "2026-08-15T18:55:04.534Z",
+      "id": "bR0A_GoxZqo"
     }
   ],
   "wishlists": [
@@ -1086,6 +1145,22 @@
       "area": "jkjhdzjhfkdjkfhkj",
       "userId": "UM7zIzkW5Wg",
       "id": "sUDrASBcyOs"
+    },
+    {
+      "fullName": "Kirubha Karan.R",
+      "phone": "9999999999",
+      "pincode": "600021",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "city": "Washermanpet",
+      "house": "jdkjkjdsflkjdls",
+      "street": "kjhdjkhsjdhjkfshk",
+      "area": "jkjhdzjhfkdjkfhkj",
+      "latitude": 12.978073598516959,
+      "longitude": 80.21872925978677,
+      "userId": "UM7zIzkW5Wg",
+      "id": "_1jaQTwvjW4"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

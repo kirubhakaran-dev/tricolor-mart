@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useCart } from '../context/CartContext'
 import { useAuth } from '../context/AuthContext'
@@ -70,14 +70,7 @@ export default function CheckoutPage() {
   const [pinStatus, setPinStatus] = useState(PIN_IDLE)
   const [pinMsg, setPinMsg] = useState('')
 
-  useEffect(() => {
-    if (authLoading) return
-    if (!user) { navigate('/login'); return }
-    if (items.length === 0) { navigate('/cart'); return }
-    fetchAddresses()
-  }, [user, authLoading])
-
-  const fetchAddresses = async () => {
+  const fetchAddresses = useCallback(async () => {
     setAddressLoading(true)
     try {
       const addresses = await addressService.getAddressByUser(user.id)
@@ -94,7 +87,14 @@ export default function CheckoutPage() {
     } finally {
       setAddressLoading(false)
     }
-  }
+  }, [user])
+
+  useEffect(() => {
+    if (authLoading) return
+    if (!user) { navigate('/login'); return }
+    if (items.length === 0) { navigate('/cart'); return }
+    fetchAddresses()
+  }, [user, authLoading, navigate, items.length, fetchAddresses])
 
   /* ─── Form field handlers ─── */
   const setField = (field, value) => {
@@ -240,7 +240,7 @@ export default function CheckoutPage() {
   const getSelectedAddress = () => savedAddresses.find(a => a.id === selectedAddressId) || null
 
   const handlePlaceOrder = async () => {
-    let deliveryAddress = null
+    let deliveryAddress
     if (showNewForm) {
       const errs = validateAddress(addrForm)
       if (Object.keys(errs).length > 0) {
