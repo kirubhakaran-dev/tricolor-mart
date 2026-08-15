@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useCart } from '../context/CartContext'
 import { useAuth } from '../context/AuthContext'
@@ -61,6 +61,7 @@ export default function CheckoutPage() {
   const [showNewForm, setShowNewForm] = useState(false)
   const [addressLoading, setAddressLoading] = useState(true)
   const [placing, setPlacing] = useState(false)
+  const orderPlacedRef = useRef(false)
 
   const [addrForm, setAddrForm] = useState({ ...EMPTY_FORM })
   const [addrErrors, setAddrErrors] = useState({})
@@ -92,8 +93,8 @@ export default function CheckoutPage() {
   useEffect(() => {
     if (authLoading) return
     if (!user) { navigate('/login'); return }
-    if (items.length === 0) { navigate('/cart'); return }
-    fetchAddresses()
+    if (items.length === 0 && !orderPlacedRef.current) { navigate('/cart'); return }
+    if (items.length > 0) fetchAddresses()
   }, [user, authLoading, navigate, items.length, fetchAddresses])
 
   /* ─── Form field handlers ─── */
@@ -301,6 +302,7 @@ export default function CheckoutPage() {
       )
 
       clearPurchasedItems(items.map(i => i.id))
+      orderPlacedRef.current = true
       addToast('Order placed successfully!', 'success')
       navigate(`/order-confirmation/${createdOrder.id}`)
     } catch (err) {

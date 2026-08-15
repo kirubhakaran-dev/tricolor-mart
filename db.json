@@ -100,7 +100,7 @@
       "category": "Indian Sweets",
       "rating": 4.9,
       "reviewCount": 341,
-      "stock": 30,
+      "stock": 28,
       "images": [
         "https://i.pinimg.com/1200x/a7/5a/eb/a75aeb8f7e164a652c9fd34201647c02.jpg"
       ],
@@ -154,7 +154,7 @@
       "category": "Indian Sweets",
       "rating": 4.8,
       "reviewCount": 305,
-      "stock": 35,
+      "stock": 32,
       "images": [
         "https://i.pinimg.com/1200x/28/f5/f9/28f5f96be6b4b9f1d1f0eef7f71ce10f.jpg"
       ],
@@ -735,6 +735,13 @@
       "password": "hello@1",
       "createdAt": "2026-08-15T16:34:50.443Z",
       "id": "UM7zIzkW5Wg"
+    },
+    {
+      "name": "gfg",
+      "email": "cghg@gmail.com",
+      "password": "Raman@123",
+      "createdAt": "2026-08-15T19:02:44.376Z",
+      "id": "OoJNmLbiDYI"
     }
   ],
   "orders": [
@@ -999,6 +1006,170 @@
       "status": "Order Placed",
       "createdAt": "2026-08-15T18:55:04.534Z",
       "id": "bR0A_GoxZqo"
+    },
+    {
+      "orderNumber": "TM9444013489",
+      "userId": "OoJNmLbiDYI",
+      "items": [
+        {
+          "id": "33",
+          "title": "Tricolour Door Decoration Set",
+          "category": "Independence Day Decor",
+          "image": "https://i.pinimg.com/736x/9a/52/ca/9a52cae2f13ef5915f0c9e9b056190b6.jpg",
+          "price": 349,
+          "originalPrice": 499,
+          "quantity": 8
+        }
+      ],
+      "subtotal": 2792,
+      "couponCode": "FREEDOM25",
+      "discount": 698,
+      "taxableAmount": 2094,
+      "cgst": 188.46,
+      "sgst": 188.46,
+      "deliveryFee": 0,
+      "total": 2470.92,
+      "shippingAddress": {
+        "fullName": "ghg",
+        "phone": "6945578522",
+        "pincode": "603109",
+        "state": "Tamil Nadu",
+        "district": "Kanchipuram",
+        "city": "Ammanambakkam",
+        "house": "nbmnbmn",
+        "street": "b bmn ",
+        "area": "",
+        "latitude": 12.978059463941316,
+        "longitude": 80.21890023336697,
+        "userId": "OoJNmLbiDYI",
+        "id": "06vnctBDEHg"
+      },
+      "status": "Order Placed",
+      "createdAt": "2026-08-15T19:09:04.401Z",
+      "id": "5oYbBgE-iw4"
+    },
+    {
+      "orderNumber": "TM0870516836",
+      "userId": "OoJNmLbiDYI",
+      "items": [
+        {
+          "id": "9",
+          "title": "Gulab Jamun Celebration Box (500g)",
+          "category": "Indian Sweets",
+          "image": "https://i.pinimg.com/1200x/28/f5/f9/28f5f96be6b4b9f1d1f0eef7f71ce10f.jpg",
+          "price": 249,
+          "originalPrice": 320,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 747,
+      "couponCode": "FREEDOM25",
+      "discount": 187,
+      "taxableAmount": 560,
+      "cgst": 50.4,
+      "sgst": 50.4,
+      "deliveryFee": 0,
+      "total": 660.8,
+      "shippingAddress": {
+        "fullName": "ghg",
+        "phone": "6945578522",
+        "pincode": "603109",
+        "state": "Tamil Nadu",
+        "district": "Kanchipuram",
+        "city": "Ammanambakkam",
+        "house": "nbmnbmn",
+        "street": "b bmn ",
+        "area": "",
+        "latitude": 12.978059463941316,
+        "longitude": 80.21890023336697,
+        "userId": "OoJNmLbiDYI",
+        "id": "06vnctBDEHg"
+      },
+      "status": "Order Placed",
+      "createdAt": "2026-08-15T19:11:27.051Z",
+      "id": "6zAkHi2gzic"
+    },
+    {
+      "orderNumber": "TM1984745578",
+      "userId": "OoJNmLbiDYI",
+      "items": [
+        {
+          "id": "6",
+          "title": "Premium Kaju Katli Box (500g)",
+          "category": "Indian Sweets",
+          "image": "https://i.pinimg.com/1200x/a7/5a/eb/a75aeb8f7e164a652c9fd34201647c02.jpg",
+          "price": 499,
+          "originalPrice": 599,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 499,
+      "couponCode": "FREEDOM25",
+      "discount": 125,
+      "taxableAmount": 374,
+      "cgst": 33.66,
+      "sgst": 33.66,
+      "deliveryFee": 0,
+      "total": 441.31999999999994,
+      "shippingAddress": {
+        "fullName": "ghg",
+        "phone": "6945578522",
+        "pincode": "603109",
+        "state": "Tamil Nadu",
+        "district": "Kanchipuram",
+        "city": "Ammanambakkam",
+        "house": "nbmnbmn",
+        "street": "b bmn ",
+        "area": "",
+        "latitude": 12.978059463941316,
+        "longitude": 80.21890023336697,
+        "userId": "OoJNmLbiDYI",
+        "id": "06vnctBDEHg"
+      },
+      "status": "Order Placed",
+      "createdAt": "2026-08-15T19:13:18.474Z",
+      "id": "47gv_sXKQj0"
+    },
+    {
+      "orderNumber": "TM5578345084",
+      "userId": "OoJNmLbiDYI",
+      "items": [
+        {
+          "id": "6",
+          "title": "Premium Kaju Katli Box (500g)",
+          "category": "Indian Sweets",
+          "image": "https://i.pinimg.com/1200x/a7/5a/eb/a75aeb8f7e164a652c9fd34201647c02.jpg",
+          "price": 499,
+          "originalPrice": 599,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 499,
+      "couponCode": "FREEDOM25",
+      "discount": 125,
+      "taxableAmount": 374,
+      "cgst": 33.66,
+      "sgst": 33.66,
+      "deliveryFee": 0,
+      "total": 441.31999999999994,
+      "shippingAddress": {
+        "fullName": "ghg",
+        "phone": "6945578522",
+        "pincode": "603109",
+        "state": "Tamil Nadu",
+        "district": "Kanchipuram",
+        "city": "Ammanambakkam",
+        "house": "nbmnbmn",
+        "street": "b bmn ",
+        "area": "",
+        "latitude": 12.978059463941316,
+        "longitude": 80.21890023336697,
+        "userId": "OoJNmLbiDYI",
+        "id": "06vnctBDEHg"
+      },
+      "status": "Order Placed",
+      "createdAt": "2026-08-15T19:19:17.834Z",
+      "id": "BciqBgl8IVA"
     }
   ],
   "wishlists": [
@@ -1102,6 +1273,66 @@
         }
       ],
       "id": "T6Ta0LEX8bc"
+    },
+    {
+      "userId": "OoJNmLbiDYI",
+      "items": [
+        {
+          "id": "1",
+          "title": "Premium Indian National Flag (3×2 ft)",
+          "description": "High-quality polyester Indian national flag with vibrant saffron, white and India green bands. Ashoka Chakra printed with precision. Double-stitched edges for durability. Suitable for outdoor and indoor display on Independence Day.",
+          "price": 199,
+          "originalPrice": 299,
+          "discount": 33,
+          "category": "Flags & Tricolour",
+          "rating": 4.7,
+          "reviewCount": 284,
+          "stock": 44,
+          "images": [
+            "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=600&q=80"
+          ],
+          "badge": "Bestseller",
+          "featured": true,
+          "createdAt": "2024-07-15T10:00:00Z"
+        },
+        {
+          "id": "5",
+          "title": "Tricolour Desk Flag Set",
+          "description": "Elegant tricolour desk flag set featuring a premium polyester Indian national flag on a polished brass stand. Compact 12×8 inch flag with crisp Ashoka Chakra printing. Ideal for desks, reception areas and formal offices.",
+          "price": 249,
+          "originalPrice": 349,
+          "discount": 29,
+          "category": "Flags & Tricolour",
+          "rating": 4.6,
+          "reviewCount": 143,
+          "stock": 38,
+          "images": [
+            "https://i.pinimg.com/1200x/a3/75/a9/a375a9ac0a302995f4b1e4dc29384e56.jpg"
+          ],
+          "badge": "Office Pick",
+          "featured": true,
+          "createdAt": "2024-07-18T10:00:00Z"
+        },
+        {
+          "id": "6",
+          "title": "Premium Kaju Katli Box (500g)",
+          "description": "Premium diamond-shaped cashew fudge made with finest quality cashews and pure silver leaf (varak). A royal Independence Day mithai, beautifully packaged in a festive saffron-green gift box. Each piece melts in the mouth.",
+          "price": 499,
+          "originalPrice": 599,
+          "discount": 17,
+          "category": "Indian Sweets",
+          "rating": 4.9,
+          "reviewCount": 341,
+          "stock": 30,
+          "images": [
+            "https://i.pinimg.com/1200x/a7/5a/eb/a75aeb8f7e164a652c9fd34201647c02.jpg"
+          ],
+          "badge": "Premium",
+          "featured": true,
+          "createdAt": "2024-07-10T10:00:00Z"
+        }
+      ],
+      "id": "ZGmyiTjUBKU"
     }
   ],
   "addresses": [
@@ -1160,6 +1391,21 @@
       "longitude": 80.21872925978677,
       "userId": "UM7zIzkW5Wg",
       "id": "_1jaQTwvjW4"
+    },
+    {
+      "fullName": "ghg",
+      "phone": "6945578522",
+      "pincode": "603109",
+      "state": "Tamil Nadu",
+      "district": "Kanchipuram",
+      "city": "Ammanambakkam",
+      "house": "nbmnbmn",
+      "street": "b bmn ",
+      "area": "",
+      "latitude": 12.978059463941316,
+      "longitude": 80.21890023336697,
+      "userId": "OoJNmLbiDYI",
+      "id": "06vnctBDEHg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
